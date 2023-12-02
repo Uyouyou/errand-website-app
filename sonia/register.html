@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+    <link rel="stylesheet" href="/sonia/register.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <img src="/img/4957419_Delivery-Cristina-PhotoRoom 1.png" alt="" />
+      </div>
+
+      <div class="info-text">
+        <h1>Hi,</h1>
+        <p>Create your account</p>
+      </div>
+
+      <form action="/" id="form">
+        <div class="input-box">
+          <input
+            type="text"
+            name="Firstname"
+            placeholder="First name"
+            aria-label="Firstname"
+            class="fname"
+            autocomplete="off"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-box">
+          <input
+            type="text"
+            name="Lastname"
+            placeholder="Last name"
+            aria-label="Lastname"
+            class="lname"
+            autocomplete="off"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-box">
+          <input
+            type="text"
+            name="Email"
+            placeholder="Email Address"
+            aria-label="Email Address"
+            class="email"
+            autocomplete="off"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-box">
+          <input
+            type="text"
+            name="Password"
+            placeholder="Password"
+            aria-label="Password"
+            class="password"
+            autocomplete="off"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-box">
+          <input
+            type="text"
+            name="Confirm Password"
+            placeholder="Confirm Password"
+            aria-label="Confirm Password"
+            class="confirm"
+            autocomplete="off"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="btn">
+          <button class="signup" type="submit">
+            <a href="#" id="signup">SIGNUP</a>
+          </button>
+          <div class="popup" id="popup">
+            <i class="bx bxs-check-circle"></i>
+            <h2>Thank You!</h2>
+            <p>Your details has been successfully submitted.</p>
+            <button type="button" onclick="closePopup()">OK</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="line-sec">
+        <div class="line"></div>
+        <p>Or continue with</p>
+        <div class="line"></div>
+      </div>
+
+      <div class="links">
+        <a href="#"><img src="/img/flat-color-icons_google.png" alt="" /></a>
+        <a href="#"><img src="/img/logos_facebook.png" alt="" /></a>
+      </div>
+
+      <div class="redirect">
+        <p>
+          Have an account? <a href="/sonia/login.html" target="_blank">Login</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="/sonia/register.js"></script>
+  </body>
+</html>

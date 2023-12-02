@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 100vh;
+}
+.container{
+    gap: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 65px;
+    border-radius: 12px;
+    background: #fff;
+    margin: 20px;
+}
+.emailp{
+    color: var(--Primary-colour, #FBB149);
+
+    /* Title Large */
+    font-family: inherit;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1em;
+    line-height: 28px; /* 127.273% */
+    margin-bottom: 1em;
+}
+
+.img-header{
+    background-color: var(--Primary-colour, #FBB149);
+    width: 100%;
+    height: 100%;
+   
+}
+
+.email-box{
+    width: 180px;
+    margin-bottom: 1em;
+}
+
+
+.otpContent{
+    width: 400px;
+    text-align: left;
+    color: var(--Words, rgba(0, 0, 0, 0.50));
+    /* Body Small/Label Large */
+    font-family: Roboto Serif;
+    /* font-size: 12px; */
+    font-style: normal;
+    font-weight: 400;
+    font-family: inherit;
+    white-space: wrap;
+    font-size: 19px;
+    letter-spacing: 0.6px;
+    line-height: 20px; /* 133.333% */
+    margin-bottom: 1em;
+}
+
+
+.logo{
+    color: var(--Primary-colour, #FBB149);
+    /* Display Large */
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: inherit;
+    line-height: 64px; /* 112.281% */
+    margin-top: 4%;
+}
+
+
+@media (max-width:700px) {
+    
+.img-header{
+    width: 312px;
+   
+}
+
+
+.emailp{
+    font-size: 20px;
+}
+
+.email-box{
+    width: 130px;
+}
+
+.otpContent{
+    width: 300px;
+    font-size: 16px;
+}
+
+.logo{
+    font-size: 30px;
+}
+}

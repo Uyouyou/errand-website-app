@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto Serif;
+
+}
+.container{
+    top: 50px;
+    position: relative;
+}
+.hero-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+
+}
+.logo{
+    color: var(--Primary-colour, #FBB149);
+    /* Display Large */
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 112.281% */
+}
+.hero-p{
+        width: 260px;
+        color: rgba(0, 0, 0, 0.50);
+        text-align: center;
+    
+        /* Title Medium/Body Large */
+        font-family: Roboto Serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+
+}
+.arrow-img{
+    /* margin-top: 5%; */
+
+}
+.errand-img{
+    /* margin-top:10%; */
+
+}

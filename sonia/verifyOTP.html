@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>verifyOTP</title>
+    <link rel="stylesheet" href="/sonia/verifyOTP.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <img src="/img/mingcute_mail-open-fill.png" alt="" />
+      </header>
+      <p class="otpvP">OTP VERIFICATION</p>
+      <p class="note">
+        Please enter the 4 digit OTP code sent to your Email addresss.
+      </p>
+      <div class="codeboxContainer">
+        <div class="">
+          <input id="codebox box" aria-label="code box" type="number" />
+        </div>
+        <div class="">
+          <input id="codebox box" aria-label="code box" type="number" />
+        </div>
+        <div class="">
+          <input id="codebox box" aria-label="code box" type="number" />
+        </div>
+        <div class="">
+          <input id="codebox box" aria-label="code box" type="number" />
+        </div>
+      </div>
+
+      <div class="btn">
+        <button class="login" type="submit">
+          <a href="#" id="login">LOGIN</a>
+        </button>
+      </div>
+
+      <section class="last-part">
+        <p class="acct">
+          Didn’t get the code?
+          <span
+            ><a style="color: var(--Secondary-colour, #589c48)" href="#"
+              >Resend</a
+            ></span
+          >
+        </p>
+      </section>
+    </section>
+
+    <script defer src="/sonia/verifyOTP.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/sonia/login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <img src="/img/4957419_Delivery-Cristina-PhotoRoom 1.png" alt="" />
+      </div>
+
+      <div class="info-text">
+        <h1>Hi,</h1>
+        <p>Login to your account</p>
+      </div>
+
+      <form action="/" id="form">
+        <div class="input-box">
+          <input
+            type="text"
+            name="Username"
+            placeholder="Username"
+            aria-label="Username"
+            class="fname"
+            autocomplete="off"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-box">
+          <input
+            type="text"
+            name="Password"
+            placeholder="Password"
+            aria-label="Password"
+            class="password"
+            autocomplete="off"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="btn">
+          <button class="signup" type="submit">
+            <a href="#" id="signup">LOGIN</a>
+          </button>
+          <div class="popup" id="popup">
+            <i class="bx bxs-check-circle"></i>
+            <h2>Congratulations!</h2>
+            <p>You are successfully logged in.</p>
+            <button type="button" onclick="closePopup()">OK</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="line-sec">
+        <div class="line"></div>
+        <p>Or continue with</p>
+        <div class="line"></div>
+      </div>
+
+      <div class="links">
+        <a href="#"><img src="/img/flat-color-icons_google.png" alt="" /></a>
+        <a href="#"><img src="/img/logos_facebook.png" alt="" /></a>
+      </div>
+
+      <div class="redirect">
+        <p>
+          Don't have an account?
+          <a href="/sonia/register.html" target="_blank">Sign Up</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="/sonia/login.js"></script>
+  </body>
+</html>
